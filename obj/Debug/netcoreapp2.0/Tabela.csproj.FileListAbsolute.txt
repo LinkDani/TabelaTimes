@@ -1,0 +1,10 @@
+/home/ubuntu/C#/Tabela/obj/Debug/netcoreapp2.0/Tabela.csproj.CoreCompileInputs.cache
+/home/ubuntu/C#/Tabela/obj/Debug/netcoreapp2.0/Tabela.AssemblyInfoInputs.cache
+/home/ubuntu/C#/Tabela/obj/Debug/netcoreapp2.0/Tabela.AssemblyInfo.cs
+/home/ubuntu/C#/Tabela/bin/Debug/netcoreapp2.0/Tabela.deps.json
+/home/ubuntu/C#/Tabela/bin/Debug/netcoreapp2.0/Tabela.runtimeconfig.json
+/home/ubuntu/C#/Tabela/bin/Debug/netcoreapp2.0/Tabela.runtimeconfig.dev.json
+/home/ubuntu/C#/Tabela/bin/Debug/netcoreapp2.0/Tabela.dll
+/home/ubuntu/C#/Tabela/bin/Debug/netcoreapp2.0/Tabela.pdb
+/home/ubuntu/C#/Tabela/obj/Debug/netcoreapp2.0/Tabela.dll
+/home/ubuntu/C#/Tabela/obj/Debug/netcoreapp2.0/Tabela.pdb
