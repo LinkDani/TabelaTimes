@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 
 namespace Tabela
 {
@@ -8,30 +7,28 @@ namespace Tabela
         static void Main(string[] args)
         {
 
-            Equipe[] time = new Equipe[3];
-
-            time[0] = new Equipe();
-            Console.WriteLine("Escreva o nome do time: ");
-            time[0].nome = Console.ReadLine();
-            Console.WriteLine("Escreva a atual pontuação do time: ");
-            time[0].pontuacao = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Tabela: ");
             
-            time[1] = new Equipe();
-            Console.WriteLine("Escreva o próximo do time: ");
-            time[1].nome = Console.ReadLine();
-            Console.WriteLine("Escreva a atual pontuação do time: ");
-            time[1].pontuacao = Convert.ToInt32(Console.ReadLine());
+            ConsoleKeyInfo a;
+            Campeonato campeonato = new Campeonato();
 
-            time[2] = new Equipe();
-            Console.WriteLine("Escreva do último do time: ");
-            time[2].nome = Console.ReadLine();
-            Console.WriteLine("Escreva a atual pontuação do time: ");
-            time[2].pontuacao = Convert.ToInt32(Console.ReadLine());
+            do {
+            Console.Write("Digite sua opção: ");
+            a = Console.ReadKey()   ;
 
-            for(int i = 0; i < time.Length; i++){
-
-            Console.WriteLine("Time:" + time[i].nome + "\n Pontuação: " + time[i].pontuacao);
+            if (a.Key == ConsoleKey.D1) {
+                System.Console.WriteLine("Adiciona uma nova equipe");
+                System.Console.WriteLine("Digite o nome da equipe:");
+                string nome = Console.ReadLine();
+                System.Console.WriteLine("Digite a pontuação:");
+                string pontuacao = Console.ReadLine();
+                campeonato.equipes.Add(new Equipe(nome, Int32.Parse(pontuacao)));
             }
+            } while (a.Key != ConsoleKey.D2);
+
+            System.Console.WriteLine("Listando o resultado: ");
+            campeonato.resultado();
+
         }
     }
 }
