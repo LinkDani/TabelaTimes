@@ -21,7 +21,7 @@ namespace Tabela
 
         public void rebaixados(){
              if(equipes.Count == 1){
-                System.Console.WriteLine("Campeão: ");
+                System.Console.WriteLine("Contém Apenas: ");
                 System.Console.WriteLine(equipes[equipes.Count - 1].nome);
              }
              else
@@ -30,6 +30,11 @@ namespace Tabela
                  System.Console.WriteLine(equipes[equipes.Count - 1].nome);
              }
         }
+
+         public void Campeão(){
+                System.Console.WriteLine("Campeão: ");
+                System.Console.WriteLine(equipes[0].nome);
+             }
     }
 
 }

@@ -30,6 +30,7 @@ namespace Tabela
             campeonato.resultado();
             System.Console.WriteLine("resultado: ");
             campeonato.rebaixados();
+            campeonato.Campeão();
 
         }
     }
