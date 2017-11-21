@@ -28,7 +28,7 @@ namespace Tabela
 
             System.Console.WriteLine("Listando o resultado: ");
             campeonato.resultado();
-            System.Console.WriteLine("Os rebaixados: ");
+            System.Console.WriteLine("resultado: ");
             campeonato.rebaixados();
 
         }

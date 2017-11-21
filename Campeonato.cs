@@ -20,7 +20,15 @@ namespace Tabela
         }
 
         public void rebaixados(){
-             System.Console.WriteLine(equipes[equipes.Count - 1].nome);
+             if(equipes.Count == 1){
+                System.Console.WriteLine("Campeão: ");
+                System.Console.WriteLine(equipes[equipes.Count - 1].nome);
+             }
+             else
+             {
+                 System.Console.WriteLine("Rebaixado: ");
+                 System.Console.WriteLine(equipes[equipes.Count - 1].nome);
+             }
         }
     }
 
