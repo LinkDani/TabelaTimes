@@ -18,6 +18,10 @@ namespace Tabela
             });
 
         }
+
+        public void rebaixados(){
+             System.Console.WriteLine(equipes[equipes.Count - 1].nome);
+        }
     }
 
 }
