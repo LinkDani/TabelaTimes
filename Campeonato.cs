@@ -20,6 +20,7 @@ namespace Tabela
         }
 
         public void rebaixados(){
+                
              if(equipes.Count == 1){
                 System.Console.WriteLine("Contém Apenas: ");
                 System.Console.WriteLine(equipes[equipes.Count - 1].nome);
@@ -35,6 +36,10 @@ namespace Tabela
                 System.Console.WriteLine("Campeão: ");
                 System.Console.WriteLine(equipes[0].nome);
              }
+
+             public void ordenaPontuacao() {
+            this.equipes.Sort((x, y) => y.pontuacao.CompareTo(x.pontuacao));
+}
     }
 
 }

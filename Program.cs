@@ -27,6 +27,7 @@ namespace Tabela
             } while (a.Key != ConsoleKey.D2);
 
             System.Console.WriteLine("Listando o resultado: ");
+            campeonato.ordenaPontuacao();
             campeonato.resultado();
             System.Console.WriteLine("resultado: ");
             campeonato.rebaixados();
